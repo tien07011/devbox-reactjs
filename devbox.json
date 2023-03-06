@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "nodejs-16_x",
+    "yarn"
+  ],
+  "shell": {
+    "init_hook": null,
+    "scripts": {
+      "build": "yarn build",
+      "eject": "yarn eject",
+      "install": "yarn install",
+      "start": "yarn start",
+      "test": "yarn test"
+    }
+  },
+  "nixpkgs": {
+    "commit": "f80ac848e3d6f0c12c52758c0f25c10c97ca3b62"
+  }
+}
